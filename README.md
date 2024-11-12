@@ -11,11 +11,12 @@ Results: Using bulleted lists and images to support your answers, address the fo
 Data Preprocessing
 
 - What variable(s) are the target(s) for your model?
-'IS_SUCCESSFUL' column is the target variable from application_df
+  'IS_SUCCESSFUL' column is the target variable from application_df
 - What variable(s) are the features for your model?
-The feature variables are every other column from application_df --> this was defined by dropping the 'IS_SUCCESSFUL' column from the original dataframe
-What variable(s) should be removed from the input data because they are neither targets nor features?
-Both 'EIN' and 'NAME' columns were dropped/removed, because they were neither targets nor features for the dataset.
+  The feature variables are every other column from application_df --> this was defined by dropping the 'IS_SUCCESSFUL' column from the original dataframe
+- What variable(s) should be removed from the input data because they are neither targets nor features?
+  Both 'EIN' and 'NAME' columns were removed from the input data because they are neither targets nor features.
+
 Compiling, Training, and Evaluating the Model
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
